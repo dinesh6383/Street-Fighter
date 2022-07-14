@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighter Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="ground">
+        <div id="player">
+            <div class="ppoint">100</div>
+            <div class="pname">-----</div>
+            <div class="water"></div>
+            <div class="pimage"></div>
+            <div class="pinfo">
+                <div><h2>Q:</h2><button class="pattack">Attack</button></div>
+                <div><h2>A:</h2><button class="pheal">Heal</button></div>
+            </div>
+        </div>
+
+        <div id="automate">
+            <button>Auto</button>
+        </div>
+        
+        <div id="enemy">
+            <div class="epoint">100</div>
+            <div class="ename">-----</div>
+            <div class="fire"></div>
+            <div class="eimage"></div>
+            <div class="einfo">
+                <div><h2>P:</h2><button class="eattack">Attack</button></div>
+                <div><h2>L:</h2><button class="eheal">Heal</button></div>
+            </div>
+        </div>
+    </div>
+    <div id="message-board">
+        <div class="msg">
+            <h1>-------</h1>
+        </div>
+        <div>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <audio id='victory' src="assets/victory.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
